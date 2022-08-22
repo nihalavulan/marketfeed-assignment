@@ -13,6 +13,6 @@ export const StyledContainer = styled.div`
         width: 960px;
     }
     @media (min-width: 1200px) {
-        width: 1140px;
+        width: 1380px;
     }
 `
