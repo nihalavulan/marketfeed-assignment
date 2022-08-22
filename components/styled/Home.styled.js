@@ -17,8 +17,9 @@ export const StyledHomeWrapper = styled.div`
         }
         @media (max-width: 576px) {
             background-image: url('static/images/illustrations/HeroImgMob.svg');
-            background-position: bottom;
-            background-size: 35rem;
+            background-position: bottom ;
+            background-size: 100%;
+
         }
     }
 `
