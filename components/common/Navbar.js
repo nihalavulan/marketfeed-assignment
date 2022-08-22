@@ -1,6 +1,8 @@
 import React from 'react'
-import Button from './common/Button'
-import { StyledHeader } from './common/Navbar.styled'
+import Button from './Button'
+
+import { StyledHeader } from './styled/Navbar.styled'
+
 
 const Navbar = () => {
   return (

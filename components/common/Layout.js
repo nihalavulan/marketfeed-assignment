@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
-import Navbar from '../Navbar'
+import Navbar from './Navbar'
+
 
 const Layout = ({ title , children}) => {
   return (
@@ -13,7 +14,6 @@ const Layout = ({ title , children}) => {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet"></link>
       </Head>
-      <Navbar />
       {children}
     </>
   )

@@ -1,5 +1,6 @@
 import React from 'react'
-import { StyledButton } from './Button.style'
+import { StyledButton } from './styled/Button.style'
+
 
 const Button = ({btnText, src , iconOnly}) => {
   return (
