@@ -12,5 +12,8 @@ export const GlobalStyles = createGlobalStyle`
         background-color: #fff;
         color: ${({theme}) => theme.text.darkText};
     }
+    input, textarea, button {
+        font-family: 'Inter', sans-serif;
+    }
 `
 
