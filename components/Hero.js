@@ -15,7 +15,7 @@ const Hero = () => {
           <h5>Digital Learning Platform</h5>
           <h1><PrimaryColorSpan>World’s #1</PrimaryColorSpan> <br /> Stock Market <br /> University</h1>
           <p>Become a successful stock market trader and investor, learning directly from <b>Sharique Samsudheen</b> and his team of stock market experts!</p>
-          <Button btnText={'Join now'} hero/>
+          <Button btnText={'Join now'} hero={true} iconOnly={false}/>
           <h6>Trusted by over 3000+ Traders</h6>
         </div>
         </StyledContainer>

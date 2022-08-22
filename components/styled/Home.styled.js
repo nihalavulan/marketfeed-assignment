@@ -12,18 +12,21 @@ export const StyledHomeWrapper = styled.div`
         background-position: right bottom;
         width: 100%;
         height: 90%;
+        display: flex;
+        align-items: center;
+        padding-bottom: 15rem;
+
         @media (max-width: 968px) {
             background-size: 50rem;
         }
         @media (max-width: 576px) {
             background-image: url('static/images/illustrations/HeroImgMob.svg');
-            background-position: bottom ;
+            background-position: bottom;
             background-size: 100%;
-
+            padding-bottom: 1rem;
+            align-items: flex-start;
+            height: 100%;
         }
-        display: flex;
-        align-items: center;
-        padding-bottom: 15rem;
 
         & > div {
             h5{
@@ -53,6 +56,30 @@ export const StyledHomeWrapper = styled.div`
                 font-size: 16px;
                 letter-spacing: 1px;
                 color: #767676;
+            }
+
+            @media (max-width: 576px) {
+                text-align: center;
+                h5{
+                    font-size: 14px;
+                }
+                h1{
+                    font-size: 30px;
+                    line-height: 38px;
+                    margin: 1rem 0;
+                }
+                button{
+                    margin: 1rem auto;
+                }
+                p{
+                    font-size: 14px;
+                    margin: auto;
+                }
+                h6{
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                    color: #767676;
+                }
             }
         }
     }
