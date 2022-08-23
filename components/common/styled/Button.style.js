@@ -12,7 +12,7 @@ export const StyledButton = styled.button`
     align-items: center;
     cursor: pointer;
 
-    @media (max-width: 576px) {
+    @media (max-width: ${({theme}) => theme.isMobile}) {
         ${({iconOnly}) => iconOnly && `
             background-color: transparent;
             border: none;

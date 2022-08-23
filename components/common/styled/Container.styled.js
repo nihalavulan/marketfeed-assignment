@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledContainer = styled.div`
     width: 100%;
     margin: 0 auto;
-    @media (min-width: 576px) {
+    @media (min-width: ${({theme}) => theme.isMobile}) {
         width: 540px;
     }
     @media (min-width: 768px) {

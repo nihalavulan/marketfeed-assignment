@@ -8,4 +8,5 @@ export const theme = {
     button : {
         primary : '#14CC60'
     },
+    isMobile : '576px'
 }

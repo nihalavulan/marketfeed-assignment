@@ -11,4 +11,6 @@ export const StyledFeatureWrapper = styled.div`
     padding: 3rem;
     display: flex;
     margin: -8rem 0 2rem 0;
+
+    
 `

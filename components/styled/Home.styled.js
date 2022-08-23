@@ -19,7 +19,7 @@ export const StyledHomeWrapper = styled.div`
         @media (max-width: 968px) {
             background-size: 50rem;
         }
-        @media (max-width: 576px) {
+        @media (max-width: ${({theme}) => theme.isMobile}) {
             background-image: url('static/images/illustrations/HeroImgMob.svg');
             background-position: bottom;
             background-size: 100%;
@@ -54,7 +54,7 @@ export const StyledHomeWrapper = styled.div`
                 color: #767676;
             }
 
-            @media (max-width: 576px) {
+            @media (max-width: ${({theme}) => theme.isMobile}) {
                 text-align: center;
                 h5{
                     font-size: 14px;
