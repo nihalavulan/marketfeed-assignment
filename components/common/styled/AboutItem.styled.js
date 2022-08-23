@@ -16,4 +16,9 @@ export const StyledAboutItem = styled.div`
     letter-spacing: -1px;
     margin-top: 0.5rem;
   }
+
+  /* @media (max-width: ${({ theme }) => theme.isMobile}) {
+    width: 100%;
+  } */
+
 `;

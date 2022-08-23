@@ -31,4 +31,35 @@ export const StyleAboutWrapper = styled.div`
       margin-top: 2rem;
     }
   }
+
+  @media (max-width: ${({ theme }) => theme.isMobile}) {
+    flex-direction: column;
+    text-align: center;
+
+    & > div {
+      padding: 0 2rem;
+      & > div:nth-child(1) {
+        p {
+          font-size: 14px;
+          line-height: 21px;
+          margin-top: 1rem;
+        }
+        p:nth-child(2) {
+          margin-top: 1rem;
+        }
+      }
+      & > div:nth-child(2) {
+        width: 100%;
+        flex-wrap: wrap;
+
+        div{
+          /* flex: 0 50%; */
+          flex-basis: 50%;
+        }
+        div:nth-child(3){
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
 `;
