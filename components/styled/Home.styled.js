@@ -36,11 +36,7 @@ export const StyledHomeWrapper = styled.div`
                 letter-spacing: 2px;
                 font-weight: 600;
             }
-            h1{
-                font-size: 50px;
-                letter-spacing: -1px;
-                line-height: 60px;
-                font-weight: 800;
+            h2{
                 margin: 2rem 0;
             }
             button{
@@ -63,7 +59,7 @@ export const StyledHomeWrapper = styled.div`
                 h5{
                     font-size: 14px;
                 }
-                h1{
+                h2{
                     font-size: 30px;
                     line-height: 38px;
                     margin: 1rem 0;
