@@ -8,6 +8,7 @@ export const StyleAboutWrapper = styled.div`
   display: flex;
   font-size: 20px;
   line-height: 26px;
+  margin-top: 5rem;
 
   & > div {
     display: flex;

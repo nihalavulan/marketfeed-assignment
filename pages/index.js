@@ -2,6 +2,7 @@ import About from "../components/About";
 import Layout from "../components/common/Layout";
 import Features from "../components/Features";
 import Hero from "../components/Hero";
+import JoinDiscord from "../components/JoinDiscord";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <Hero />
         <Features />
         <About />
+        <JoinDiscord />
       </Layout>
     </>
   );
