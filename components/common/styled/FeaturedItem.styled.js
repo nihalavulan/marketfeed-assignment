@@ -22,7 +22,7 @@ export const StyledFeaturedItem = styled.div`
       font-size: 24px;
       line-height: 29px;
       letter-spacing: -0.5px;
-      color: #641b98;
+      color: ${({theme}) => theme.text.secondary};
     }
 
     p {
