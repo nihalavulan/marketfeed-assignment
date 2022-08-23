@@ -13,13 +13,15 @@ export const StyledButton = styled.button`
     cursor: pointer;
 
     @media (max-width: 576px) {
-        background-color: transparent;
-        border: none;
-        font-size: 1px;
-        outline: none;
+        ${({iconOnly}) => iconOnly && `
+            background-color: transparent;
+            border: none;
+            font-size: 1px;
+            outline: none;
 
-        & > img {
-            width: 64px;
-        }
+            & > img {
+                width: 64px;
+            }
+        `}
     }
 `

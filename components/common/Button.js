@@ -4,9 +4,9 @@ import { StyledButton } from './styled/Button.style'
 
 const Button = ({btnText, src , iconOnly}) => {
   return (
-    <StyledButton>
-        {src && <img src={src} alt="" />}
-        {!iconOnly && btnText}
+    <StyledButton iconOnly={iconOnly}>
+        {src && <img src={src} />}
+        {btnText}
     </StyledButton>
   )
 }
