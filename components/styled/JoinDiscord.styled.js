@@ -13,6 +13,12 @@ export const StyledJoinDiscordWrapper = styled.div`
   padding: 3rem;
   margin: 3rem 0;
 
+  img {
+    position: absolute;
+    right: -40px;
+    bottom: 40px;
+  }
+
   & > div {
     width: 60%;
 
@@ -30,7 +36,6 @@ export const StyledJoinDiscordWrapper = styled.div`
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
-      text-fill-color: transparent;
       margin-top: 1rem;
       font-weight: 800;
     }
@@ -47,9 +52,39 @@ export const StyledJoinDiscordWrapper = styled.div`
     }
   }
 
-  img {
-    position: absolute;
-    right: -40px;
-    bottom: 40px;
+  @media (max-width: ${({ theme }) => theme.isMobile}) {
+    text-align: center;
+    margin: 2rem auto;
+    width: 85%;
+    padding: 3rem 0 8rem 0;
+    background-size: cover;
+    background-position: bottom;
+
+    & > div {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h5{
+        font-size: 12px;
+      }
+      h3{
+        font-size: 32px;
+        line-height: 38px;
+      }
+      p{
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+
+    img{
+      width: 210px;
+      bottom: -20px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    }
   }
 `;
