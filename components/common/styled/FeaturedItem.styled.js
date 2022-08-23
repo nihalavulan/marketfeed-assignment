@@ -5,7 +5,15 @@ export const StyledFeaturedItem = styled.div`
     align-items: flex-start;
     gap: 15px;
     margin: 1rem 0;
-    
+
+    @media (max-width: ${({theme}) => theme.isMobile}) {
+       flex-direction: column;
+       img{
+                width: 36px;
+                height: 36px;
+            }
+    }
+
     div {
         display: flex;
         flex-direction: column;
@@ -24,5 +32,21 @@ export const StyledFeaturedItem = styled.div`
             line-height: 21px;
             font-weight: 500;
         }
+
+        @media (max-width: ${({theme}) => theme.isMobile}) {
+            h4{
+                font-size: 16px;
+                line-height: 21px;
+
+                br{
+                    display: none;
+                }
+            }
+            p{
+                font-size: 12px;
+                line-height: 16px;
+                max-width: 100%;
+            }
+        }   
     }
 `
