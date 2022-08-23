@@ -10,10 +10,9 @@ export const GlobalStyles = createGlobalStyle`
     body {
         font-family: 'Inter', sans-serif;
         background-color: #fff;
-        color: ${({theme}) => theme.text.darkText};
+        color: ${({ theme }) => theme.text.darkText};
     }
     input, textarea, button {
         font-family: 'Inter', sans-serif;
     }
-`
-
+`;
