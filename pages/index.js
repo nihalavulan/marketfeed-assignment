@@ -3,6 +3,7 @@ import Layout from "../components/common/Layout";
 import Features from "../components/Features";
 import Hero from "../components/Hero";
 import JoinDiscord from "../components/JoinDiscord";
+import Programs from "../components/Programs";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Features />
         <About />
         <JoinDiscord />
+        <Programs />
       </Layout>
     </>
   );
