@@ -27,5 +27,6 @@ export const StyledFaqItem = styled.div`
     line-height: 24px;
     max-width: 95%;
     margin-top: 2rem;
+    display: ${({open}) => !open && 'none'};
   }
 `;
