@@ -1,5 +1,6 @@
 import About from "../components/About";
 import Layout from "../components/common/Layout";
+import Faq from "../components/Faq";
 import Features from "../components/Features";
 import Hero from "../components/Hero";
 import JoinDiscord from "../components/JoinDiscord";
@@ -16,6 +17,7 @@ export default function Home() {
         <JoinDiscord />
         <Programs />
         <Process />
+        <Faq />
       </Layout>
     </>
   );
