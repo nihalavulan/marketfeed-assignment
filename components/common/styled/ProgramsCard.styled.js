@@ -44,7 +44,7 @@ export const StyledProgramsCard = styled.div`
 
     div {
       width: 100%;
-      height: 8rem;
+      height: auto;
       background: linear-gradient(
         rgba(234, 222, 113, 0.2),
         rgba(255, 211, 186, 0.2)
@@ -66,5 +66,28 @@ export const StyledProgramsCard = styled.div`
     width: 100%;
     padding: 1rem 2rem;
     justify-content: center;
+  }
+
+  @media (max-width: ${({theme}) => theme.isMobile}){
+    min-width: 90%;
+    padding: 2rem 1rem;
+    & > div{
+      h3{
+        font-size: 20px;
+        margin-bottom: .5rem;
+      }
+      span{
+        font-size: 12px;
+      }
+      div{
+        text-align: left;
+        p{
+          font-size: 14px;
+        }
+        a{
+          font-size: 14px;
+        }
+      }
+    }
   }
 `;
