@@ -11,6 +11,7 @@ export const GlobalStyles = createGlobalStyle`
         font-family: 'Inter', sans-serif;
         background-color: #fff;
         color: ${({ theme }) => theme.text.darkText};
+        overflow-x: hidden;
     }
     input, textarea, button {
         font-family: 'Inter', sans-serif;

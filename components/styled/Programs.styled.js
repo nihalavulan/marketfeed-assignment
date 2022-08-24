@@ -8,6 +8,7 @@ export const StyledProgramsWrapper = styled.div`
   & > div {
     display: flex;
     gap: 2rem;
+    z-index: 2;
   }
 
   & > h2 {
