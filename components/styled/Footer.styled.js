@@ -15,7 +15,6 @@ export const StyledFooter = styled.footer`
       display: flex;
       justify-content: space-between;
 
-
       & > div:first-child {
         p {
           font-size: 16px;
@@ -24,20 +23,19 @@ export const StyledFooter = styled.footer`
           font-weight: 500;
           margin-top: 1rem;
         }
-        div{
-            display: flex;
-            gap: 15px;
-            margin-top: 10px;
+        div {
+          display: flex;
+          gap: 15px;
+          margin-top: 10px;
         }
       }
-      & > div:last-child{
+      & > div:last-child {
         display: flex;
         justify-content: space-evenly;
         align-items: flex-start;
         width: 100%;
       }
     }
-
   }
 
   & > p {
@@ -46,5 +44,20 @@ export const StyledFooter = styled.footer`
     letter-spacing: -0.5px;
     opacity: 0.8;
     margin-top: 8rem;
+  }
+
+  @media (max-width: ${({ theme }) => theme.isMobile}) {
+    padding: 4rem 2rem;
+
+    & > div {
+      & > div {
+        flex-direction: column;
+        gap: 3rem;
+
+        & > div:last-child{
+            flex-wrap: wrap;
+        }
+      }
+    }
   }
 `;

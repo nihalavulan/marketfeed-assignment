@@ -33,4 +33,9 @@ export const StyledFooterLinks = styled.div`
       }
     }
   }
+
+  @media (max-width: ${({ theme }) => theme.isMobile}) {
+    flex: 50%;
+    margin-top: 2rem;
+  }
 `;

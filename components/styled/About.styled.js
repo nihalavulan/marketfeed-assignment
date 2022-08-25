@@ -53,7 +53,6 @@ export const StyleAboutWrapper = styled.div`
         flex-wrap: wrap;
 
         div{
-          /* flex: 0 50%; */
           flex-basis: 50%;
         }
         div:nth-child(3){
