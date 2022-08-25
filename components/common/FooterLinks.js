@@ -7,8 +7,8 @@ const FooterLinks = ({ head, links }) => {
       <h6>{head}</h6>
       <ul>
         {links.map((link , key) => (
-          <a>
-            <li key={key}>{link}</li>
+          <a key={key}>
+            <li>{link}</li>
           </a>
         ))}
       </ul>

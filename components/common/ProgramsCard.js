@@ -12,8 +12,8 @@ const ProgramsCard = ({ programName, amount, benifits, discount }) => {
           ₹ <b>{amount}</b>/seat
         </span>
         <ul>
-          {benifits.map((benefit) => (
-            <li>{benefit}</li>
+          {benifits.map((benefit,key) => (
+            <li key={key}>{benefit}</li>
           ))}
         </ul>
         {discount && (

@@ -1,6 +1,6 @@
+import Image from 'next/image'
 import React from 'react'
 import { StyledProcessCard } from './styled/ProcessCard.Styled'
-import { PrimaryColorSpan } from './styled/Span.style'
 
 const ProcessCard = ({step , heading , text , src}) => {
   return (
