@@ -33,9 +33,11 @@ const Footer = () => {
             </div>
           </div>
 
-          <FooterLinks head={"Products"} links={footerLinks1} />
-          <FooterLinks head={"Company"} links={footerLinks2} />
-          <FooterLinks head={"More"} links={footerLinks3} />
+          <div>
+            <FooterLinks head={"Products"} links={footerLinks1} />
+            <FooterLinks head={"Company"} links={footerLinks2} />
+            <FooterLinks head={"More"} links={footerLinks3} />
+          </div>
         </div>
       </StyledContainer>
       <p>made with 💚 by fundfolio</p>

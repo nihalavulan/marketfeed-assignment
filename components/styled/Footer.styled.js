@@ -15,7 +15,8 @@ export const StyledFooter = styled.footer`
       display: flex;
       justify-content: space-between;
 
-      div {
+
+      & > div:first-child {
         p {
           font-size: 16px;
           line-height: 20px;
@@ -29,7 +30,14 @@ export const StyledFooter = styled.footer`
             margin-top: 10px;
         }
       }
+      & > div:last-child{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        width: 100%;
+      }
     }
+
   }
 
   & > p {
