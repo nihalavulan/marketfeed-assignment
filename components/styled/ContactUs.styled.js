@@ -37,4 +37,28 @@ export const StyledContactUsWrapper = styled.div`
       align-items: center;
     }
   }
+
+  @media (max-width: ${({ theme }) => theme.isMobile}) {
+    height: 45rem;
+
+    & > img {
+      width: 300px;
+      right: 3rem;
+    }
+    & > div {
+      align-items: center;
+      justify-content: flex-start;
+      padding: 3rem 0;
+
+      h2 {
+        font-weight: 32px;
+      }
+
+      & > div {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+      }
+    }
+  }
 `;
