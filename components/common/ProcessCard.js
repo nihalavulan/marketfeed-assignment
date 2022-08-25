@@ -10,7 +10,7 @@ const ProcessCard = ({step , heading , text , src}) => {
             <h3>{heading}</h3>
             <p>{text}</p>
         </div>
-        <img src={src}  />
+        <Image src={src}  />
     </StyledProcessCard>
   )
 }

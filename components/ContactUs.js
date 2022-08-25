@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import ContactItem from "./common/ContactItem";
 import { StyledContactItem } from "./common/styled/ContactItem.styled";
@@ -15,7 +16,7 @@ const ContactUs = () => {
           <ContactItem text={"Give us a call"} value={"+91 99006 63322"} />
         </div>
       </StyledContainer>
-      <img src="static/images/illustrations/ContactIllustration.svg" alt="" />
+      <Image src="static/images/illustrations/ContactIllustration.svg" alt="" />
     </StyledContactUsWrapper>
   );
 };

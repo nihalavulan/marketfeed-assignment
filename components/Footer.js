@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import FooterLinks from "./common/FooterLinks";
 import SocialIcon from "./common/SocialIcon";
@@ -21,7 +22,7 @@ const Footer = () => {
       <StyledContainer>
         <div>
           <div>
-            <img src="static/images/fundfolioLogo.svg" />
+            <Image src="static/images/fundfolioLogo.svg" />
             <p>
               kinfra Hi-tech park <br /> kalamassery, kochi <br /> kerala 683503
             </p>

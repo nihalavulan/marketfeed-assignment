@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import Button from "./common/Button";
 import { StyledContainer } from "./common/styled/Container.styled";
@@ -20,7 +21,7 @@ const JoinDiscord = () => {
           </p>
           <Button btnText={"Take Me There"} />
         </div>
-        <img src="static/images/illustrations/JoinCycleImg.svg" />
+        <Image src="static/images/illustrations/JoinCycleImg.svg" />
       </StyledJoinDiscordWrapper>
     </StyledContainer>
   );

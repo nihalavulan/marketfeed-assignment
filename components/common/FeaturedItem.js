@@ -4,7 +4,7 @@ import { StyledFeaturedItem } from "./styled/FeaturedItem.styled";
 const FeaturedItem = ({ head, text, src }) => {
   return (
     <StyledFeaturedItem>
-      <img src={src} />
+      <Image src={src} />
       <div>
         <h4>{head}</h4>
         <p>{text}</p>
