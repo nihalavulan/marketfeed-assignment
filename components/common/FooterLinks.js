@@ -6,9 +6,9 @@ const FooterLinks = ({ head, links }) => {
     <StyledFooterLinks>
       <h6>{head}</h6>
       <ul>
-        {links.map((link) => (
+        {links.map((link , key) => (
           <a>
-            <li>{link}</li>
+            <li key={key}>{link}</li>
           </a>
         ))}
       </ul>
