@@ -1,5 +1,6 @@
 import About from "../components/About";
 import Layout from "../components/common/Layout";
+import ContactUs from "../components/ContactUs";
 import Faq from "../components/Faq";
 import Features from "../components/Features";
 import Hero from "../components/Hero";
@@ -18,6 +19,7 @@ export default function Home() {
         <Programs />
         <Process />
         <Faq />
+        <ContactUs />
       </Layout>
     </>
   );
