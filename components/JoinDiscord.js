@@ -21,7 +21,7 @@ const JoinDiscord = () => {
           </p>
           <Button btnText={"Take Me There"} />
         </div>
-        <Image src="static/images/illustrations/JoinCycleImg.svg" />
+        {/* <Image layout="fill"  src="/static/images/illustrations/JoinCycleImg.svg" /> */}
       </StyledJoinDiscordWrapper>
     </StyledContainer>
   );

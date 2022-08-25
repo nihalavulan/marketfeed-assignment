@@ -5,7 +5,7 @@ export const StyledContactUsWrapper = styled.div`
   height: 40rem;
   background-color: #f6f8ff;
   position: relative;
-  background-image: url("static/images/illustrations/ContactBg.svg");
+  background-image: url("/static/images/illustrations/ContactBg.svg");
   background-repeat: no-repeat;
   background-size: cover;
 

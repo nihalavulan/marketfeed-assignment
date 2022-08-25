@@ -6,7 +6,7 @@ export const StyledHomeWrapper = styled.div`
   background: linear-gradient(151.68deg, #e3f7ff -2.69%, #dae3fd 98.31%);
 
   & > div {
-    background-image: url("static/images/illustrations/HeroImgWeb.svg");
+    background-image: url("/static/images/illustrations/HeroImgWeb.svg");
     background-size: 65rem;
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -20,7 +20,7 @@ export const StyledHomeWrapper = styled.div`
       background-size: 50rem;
     }
     @media (max-width: ${({ theme }) => theme.isMobile}) {
-      background-image: url("static/images/illustrations/HeroImgMob.svg");
+      background-image: url("/static/images/illustrations/HeroImgMob.svg");
       background-position: bottom;
       background-size: 100%;
       padding-bottom: 1rem;

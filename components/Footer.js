@@ -22,15 +22,15 @@ const Footer = () => {
       <StyledContainer>
         <div>
           <div>
-            <Image src="static/images/fundfolioLogo.svg" />
+            <Image width="130" height="50" src="/static/images/fundfolioLogo.svg" />
             <p>
               kinfra Hi-tech park <br /> kalamassery, kochi <br /> kerala 683503
             </p>
             <div>
-              <SocialIcon src={"static/images/social/youtubeIcon.svg"} />
-              <SocialIcon src={"static/images/social/instagramIcon.svg"} />
-              <SocialIcon src={"static/images/social/TwitterIcon.svg"} />
-              <SocialIcon src={"static/images/social/facebookIcon.svg"} />
+              <SocialIcon src={"/static/images/social/youtubeIcon.svg"} />
+              <SocialIcon src={"/static/images/social/instagramIcon.svg"} />
+              <SocialIcon src={"/static/images/social/TwitterIcon.svg"} />
+              <SocialIcon src={"/static/images/social/facebookIcon.svg"} />
             </div>
           </div>
 

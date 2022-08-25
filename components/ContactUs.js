@@ -16,7 +16,7 @@ const ContactUs = () => {
           <ContactItem text={"Give us a call"} value={"+91 99006 63322"} />
         </div>
       </StyledContainer>
-      <Image src="static/images/illustrations/ContactIllustration.svg" alt="" />
+      {/* <Image layout="responsive" src="/static/images/illustrations/ContactIllustration.svg" alt="" /> */}
     </StyledContactUsWrapper>
   );
 };

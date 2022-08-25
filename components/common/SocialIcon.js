@@ -5,7 +5,7 @@ import { StyledSocialIconWrap } from './styled/SocialIcon.styled'
 const SocialIcon = ({src}) => {
   return (
     <StyledSocialIconWrap>
-        <Image src={src} />
+        <Image width={16} height={16}  src={src} />
     </StyledSocialIconWrap>
   )
 }

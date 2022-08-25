@@ -5,7 +5,7 @@ import { StyledButton } from "./styled/Button.style";
 const Button = ({ btnText, src, iconOnly }) => {
   return (
     <StyledButton iconOnly={iconOnly}>
-      {src && <Image src={src} />}
+      {src && <Image width={24} height={24}  src={src} />}
       {btnText}
     </StyledButton>
   );

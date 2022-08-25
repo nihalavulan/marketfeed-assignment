@@ -5,7 +5,7 @@ export const StyledJoinDiscordWrapper = styled.div`
   height: auto;
   border-radius: 40px;
   border: 1px solid rgba(0, 0, 0, 0.06);
-  background-image: url("static/images/illustrations/JoinBackground.svg");
+  background-image: url("/static/images/illustrations/JoinBackground.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right bottom;
