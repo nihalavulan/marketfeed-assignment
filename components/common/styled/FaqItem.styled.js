@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const StyledFaqItem = styled.div`
-    border-bottom: 1px solid #cecece;
-    padding: 1rem;
+  border-bottom: 1px solid #cecece;
+  padding: 1rem;
   & > div {
     display: flex;
     justify-content: space-between;
@@ -27,6 +27,20 @@ export const StyledFaqItem = styled.div`
     line-height: 24px;
     max-width: 95%;
     margin-top: 2rem;
-    display: ${({open}) => !open && 'none'};
+    display: ${({ open }) => !open && "none"};
+  }
+
+  @media (max-width: ${({ theme }) => theme.isMobile}) {
+    & > div {
+      h6 {
+        font-size: 14px;
+        line-height: 21px;
+        max-width: 90%;
+      }
+    }
+    p {
+      font-size: 14px;
+      line-height: 18px;
+    }
   }
 `;
